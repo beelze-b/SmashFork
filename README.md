@@ -2,5 +2,4 @@
 
 <!-- <img src="images/SMaSH_flowchart.pdf"> -->
 
-<object data="images/SMaSH_flowchart.pdf" type="application/pdf" width="100%"> 
-</object>
+<embed src="images/SMaSH_flowchart.pdf" type="application/pdf">
