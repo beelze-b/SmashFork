@@ -1,23 +1,23 @@
-<h1>SMaSH framework</h1>
+<h1>```SMaSH``` framework</h1>
 
 ## Overview 
-The SMaSH (Scalable Marker gene Signal Hunter) framework is a general, scalable codebase for calculating marker genes from single-cell RNA-sequencing
+The ```SMaSH``` (Scalable Marker gene Signal Hunter) framework is a general, scalable codebase for calculating marker genes from single-cell RNA-sequencing
 data for a variety of different cell annotations as provided by the user, using supervised machine learning approaches.  These annotations can be truly general:
 they can be broad cell types/clusters, detailed sub-types of different broad clusters, cell organ of origin, whether the cell inhabits tumour tissue, surrounding
-microenvironment, or healthy tissue, and more besides. SMaSH implements marker gene extraction using four different models (Random Forest, Balanced Random Forest, XGBoost,
+microenvironment, or healthy tissue, and more besides. ```SMaSH``` implements marker gene extraction using four different models (Random Forest, Balanced Random Forest, XGBoost,
 and a deep neural network) and two different information gain metrics (Gini impurity for the ensemble learners, and Shapley value for the neural network). For some details
-on the SMaSH implementation (see Figure below) please consult our pre-print: [COMING SOON]. SMaSH is integrated with the ScanPy framework, working directly from the ```AnnData```
+on the ```SMaSH``` implementation (see Figure below) please consult our pre-print: [COMING SOON]. SMaSH is integrated with the ```ScanPy``` framework, working directly from the ```AnnData```
 object of RNA-sequencing counts and a vector of user-defined annotations for each cell according to the marker gene extraction problem. 
 
-<img src="images/SMaSH_flowchart.png">
+<img src="images/```SMaSH```_flowchart.png">
 
 ## Installation
-SMaSH is accessible on pypi (https://pypi.org/project/smashpy/0.0.1/) and can be installed with ```pip```:
+```SMaSH``` is accessible on pypi (https://pypi.org/project/smashpy/0.0.1/) and can be installed with ```pip```:
 
 ```
 pip install smashpy
 ```
-All package requirements and versions are summarised in ```setup.py``` and are automatically installed with SMaSH. We therefore recommend the user
+All package requirements and versions are summarised in ```setup.py``` and are automatically installed with ```SMaSH```. We therefore recommend the user
 work from a fresh environment, such as is implemented in Anaconda:
 
 ``` 
@@ -26,18 +26,18 @@ conda activate smash_env
 pip install smashpy
 ```
 
-## Up and running with SMaSH
-The full SMaSH workflow is implemented sequentially from several functions, covering data preparation, initial gene filtering with principal components analysis, one of the
-SMaSH models for gene importance calculation, and the final ranking and selection of all genes from the initial ```AnnData``` object. For complete coverage of all models, we 
+## Up and running with ```SMaSH``` !b 
+The full ```SMaSH``` workflow is implemented sequentially from several functions, covering data preparation, initial gene filtering with principal components analysis, one of the
+```SMaSH``` models for gene importance calculation, and the final ranking and selection of all genes from the initial ```AnnData``` object. For complete coverage of all models, we 
 have included several notebooks in this repository (see ```notebooks/```), where each folder corresponds to a different publicly available data-set and contains four notebooks 
-corresponding to a separate implementation of the four different SMaSH models for the gene importance calculation. Let's consider the Paul15 data-set, available from ScanPy:
+corresponding to a separate implementation of the four different ```SMaSH``` models for the gene importance calculation. Let's consider the Paul15 data-set, available from ```ScanPy```:
 
 ```
 import scanpy as sc
 obj = sc.datasets.paul15()
 ```
 
-This can then be analysed step-by-step with the SMaSH functions, starting from the instantiation of the SMaSH object
+This can then be analysed step-by-step with the ```SMaSH``` functions, starting from the instantiation of the SMaSH object
 
 ```
 import smashpy
@@ -45,7 +45,7 @@ sm = smashpy.smashpy()
 ```
 
 Each step in the marker gene extraction chain (see Figure) can now be applied. For more details on each of these functions, see the examples provided in ```notebooks/``` and
-the help service, where full details on the implementation and attributes of any SMaSG function ```func``` can be accessed with 
+the help service, where full details on the implementation and attributes of any ```SMaSH``` function ```func``` can be accessed with 
 
 ```
 help(sm.func())
@@ -59,9 +59,9 @@ import numpy as np
 obj.obs["annotation"] = np.array([my_annotations])
 ```
 
-using the usual convention in Scanpy and ```AnnData```. 
+using the usual convention in ```ScanPy``` and ```AnnData```. 
 
-For the ```obj```, and ```AnnData``` object of counts, and the additional user-defined set of annotations, we may now apply SMaSH step-by-step:
+For the ```obj```, and ```AnnData``` object of counts, and the additional user-defined set of annotations, we may now apply ```SMaSH``` step-by-step:
 
 ```
 # Data preparation
@@ -86,7 +86,7 @@ sm.DNN(obj, group_by="annotation", model=None, balance=True, verbose=True, save=
 # Calculate the importances of each gene using the Shapley value
 selectedGenes, selectedGenes_dict = sm.run_shap(obj, group_by="annotation", model=None, verbose=True, pct=0.1, restrict_top=("local", 20))
 
-'''
+```
 
 ## Contact
 We're always happy to hear of any suggestions, issues, bug reports, and possible ideas for collaboration.
