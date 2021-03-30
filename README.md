@@ -1,4 +1,4 @@
-<h1>```SMaSH``` framework</h1>
+# SMaSH framework
 
 ## Overview 
 The ```SMaSH``` (Scalable Marker gene Signal Hunter) framework is a general, scalable codebase for calculating marker genes from single-cell RNA-sequencing
@@ -6,7 +6,7 @@ data for a variety of different cell annotations as provided by the user, using 
 they can be broad cell types/clusters, detailed sub-types of different broad clusters, cell organ of origin, whether the cell inhabits tumour tissue, surrounding
 microenvironment, or healthy tissue, and more besides. ```SMaSH``` implements marker gene extraction using four different models (Random Forest, Balanced Random Forest, XGBoost,
 and a deep neural network) and two different information gain metrics (Gini impurity for the ensemble learners, and Shapley value for the neural network). For some details
-on the ```SMaSH``` implementation (see Figure below) please consult our pre-print: [COMING SOON]. SMaSH is integrated with the ```ScanPy``` framework, working directly from the ```AnnData```
+on the ```SMaSH``` implementation (see Figure below) please consult our pre-print: [COMING SOON]. ```SMaSH``` is integrated with the ```ScanPy``` framework, working directly from the ```AnnData```
 object of RNA-sequencing counts and a vector of user-defined annotations for each cell according to the marker gene extraction problem. 
 
 <img src="images/SMaSH_flowchart.png">
@@ -26,7 +26,7 @@ conda activate smash_env
 pip install smashpy
 ```
 
-## Up and running with ```SMaSH``` !b 
+## Up and running with ```SMaSH``` ! 
 The full ```SMaSH``` workflow is implemented sequentially from several functions, covering data preparation, initial gene filtering with principal components analysis, one of the
 ```SMaSH``` models for gene importance calculation, and the final ranking and selection of all genes from the initial ```AnnData``` object. For complete coverage of all models, we 
 have included several notebooks in this repository (see ```notebooks/```), where each folder corresponds to a different publicly available data-set and contains four notebooks 
@@ -91,6 +91,6 @@ selectedGenes, selectedGenes_dict = sm.run_shap(obj, group_by="annotation", mode
 ## Contact
 We're always happy to hear of any suggestions, issues, bug reports, and possible ideas for collaboration.
 
-Mike Nelson <nelson@ebi.ac.uk> (University of Cambridge, and EMBL-EBI)
+Mike Nelson <nelson@ebi.ac.uk> (University of Cambridge, and EMBL-EBI)\
 Simone Riva <sr31@sanger.ac.uk> (University of Cambridge, and Wellcome Sanger Institute) 
 
