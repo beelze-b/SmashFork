@@ -8,6 +8,7 @@ data/house_keeping_genes_Mouse_bone_marrow.txt
 data/house_keeping_genes_Mouse_cortex.txt
 data/house_keeping_genes_human_foetal_HSC.txt
 data/house_keeping_genes_human_foetal_liver.txt
+dist/smashpy-0.0.1-py3-none-any.whl
 images/SMaSH_flowchart.png
 notebooks/cite-seq/BRF.ipynb
 notebooks/cite-seq/DNN.ipynb
@@ -117,6 +118,12 @@ notebooks/zeisel/scGeneFit_without_filtering.ipynb
 smashpy/__init__.py
 smashpy/_version.py
 smashpy/smashpy.py
+smashpy/__pycache__/SMaSH.cpython-38.pyc
+smashpy/__pycache__/SMaSH_functions.cpython-38.pyc
+smashpy/__pycache__/__init__.cpython-38.pyc
+smashpy/__pycache__/pySMaSH.cpython-38.pyc
+smashpy/__pycache__/smash.cpython-38.pyc
+smashpy/__pycache__/smashpy.cpython-38.pyc
 smashpy/smashpy.egg-info/PKG-INFO
 smashpy/smashpy.egg-info/SOURCES.txt
 smashpy/smashpy.egg-info/dependency_links.txt

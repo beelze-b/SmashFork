@@ -57,7 +57,7 @@ mymap = colors.LinearSegmentedColormap.from_list('my_colormap', colorsComb)
 ###########################################################################################
 class smashpy:
 	def __init__(self):
-		
+
 		print(" * Initialising ...")
 
 		os.environ['PYTHONHASHSEED']=str(SEED)
@@ -73,7 +73,7 @@ class smashpy:
             
 		py.offline.init_notebook_mode(connected=True)
 		sc.settings.verbosity = 0
-
+        
 
 	###########################################################################################
 	def __loadDNNmodel(self, X, num_classes):

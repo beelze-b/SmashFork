@@ -2,7 +2,7 @@ import glob
 import os
 import setuptools
 
-with open("README.md", "r") as fh:
+with open("pypl.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(name = 'smashpy',
