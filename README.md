@@ -12,7 +12,7 @@ object of RNA-sequencing counts and a vector of user-defined annotations for eac
 <img src="images/SMaSH_flowchart.png">
 
 ## Installation
-```SMaSH``` is accessible on ```pypi``` (https://pypi.org/project/smashpy/0.0.1/) and can be installed with ```pip```:
+```SMaSH``` is accessible on ```pypi``` (https://pypi.org/project/smashpy) and can be installed with ```pip```:
 
 ```
 pip install smashpy

@@ -2,7 +2,7 @@ import glob
 import os
 import setuptools
 
-with open("pypi.txt", "r") as fh:
+with open("pypi.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(name = 'smashpy',
