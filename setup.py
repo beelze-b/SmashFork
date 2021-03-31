@@ -2,12 +2,13 @@ import glob
 import os
 import setuptools
 
-# with open("README.txt", "r") as fh:
-#     long_description = fh.read()
+with open("README.md", "r") as fh:
+    long_description = fh.read()
 
 setuptools.setup(name = 'smashpy',
                  version = open("smashpy/_version.py").readlines()[-1].split()[-1].strip("\"'"),
                  description = 'SMaSH: A scalable, general marker gene identification framework for single-cell RNA sequencing and Spatial Transcriptomics',
+                 long_description=long_description,
                  author = 'Simone Riva',
                  author_email = 'sgr34@cam.ac.uk',
                  url = 'https://gitlab.com/cvejic-group/smash',
