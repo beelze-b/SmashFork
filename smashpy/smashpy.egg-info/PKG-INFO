@@ -19,10 +19,10 @@ Description: The ```SMaSH``` (Scalable Marker gene Signal Hunter) framework is a
         
         
         We're always happy to hear of any suggestions, issues, bug reports, and possible ideas for collaboration.
-        - Mike Nelson <nelson@ebi.ac.uk> (University of Cambridge, and EMBL-EBI)\
-        - Simone Riva <sr31@sanger.ac.uk> (University of Cambridge, and Wellcome Sanger Institute) 
-        
-        
+        <ul>
+        <li>Mike Nelson <nelson@ebi.ac.uk> (University of Cambridge, and EMBL-EBI)</li>
+        <li>Simone Riva <sr31@sanger.ac.uk> (University of Cambridge, and Wellcome Sanger Institute) </li>
+        </ul>
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3.5
 Requires-Python: >=3.5
