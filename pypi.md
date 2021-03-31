@@ -11,6 +11,7 @@ For further information, please visit https://gitlab.com/cvejic-group/smash
 
 
 We're always happy to hear of any suggestions, issues, bug reports, and possible ideas for collaboration.
-- Mike Nelson <nelson@ebi.ac.uk> (University of Cambridge, and EMBL-EBI)\
-- Simone Riva <sr31@sanger.ac.uk> (University of Cambridge, and Wellcome Sanger Institute) 
-
+<ul>
+<li>Mike Nelson <nelson@ebi.ac.uk> (University of Cambridge, and EMBL-EBI)</li>
+<li>Simone Riva <sr31@sanger.ac.uk> (University of Cambridge, and Wellcome Sanger Institute) </li>
+</ul>
