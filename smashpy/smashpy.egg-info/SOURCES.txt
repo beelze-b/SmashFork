@@ -1,5 +1,6 @@
 LICENSE
 README.md
+pypl.md
 setup.py
 data/cells.csv
 data/house_keeping_genes_LUNG.txt
@@ -9,6 +10,7 @@ data/house_keeping_genes_Mouse_cortex.txt
 data/house_keeping_genes_human_foetal_HSC.txt
 data/house_keeping_genes_human_foetal_liver.txt
 dist/smashpy-0.0.1-py3-none-any.whl
+dist/smashpy-0.0.2-py3-none-any.whl
 images/SMaSH_flowchart.png
 notebooks/cite-seq/BRF.ipynb
 notebooks/cite-seq/DNN.ipynb
