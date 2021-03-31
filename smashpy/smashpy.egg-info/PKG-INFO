@@ -1,6 +1,6 @@
 Metadata-Version: 1.2
 Name: smashpy
-Version: 0.0.2
+Version: 0.0.3
 Summary: SMaSH: A scalable, general marker gene identification framework for single-cell RNA sequencing and Spatial Transcriptomics
 Home-page: https://gitlab.com/cvejic-group/smash
 Author: Simone Riva
