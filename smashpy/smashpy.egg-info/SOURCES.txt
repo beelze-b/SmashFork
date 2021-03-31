@@ -1,6 +1,6 @@
 LICENSE
 README.md
-pypl.md
+pypi.md
 setup.py
 data/cells.csv
 data/house_keeping_genes_LUNG.txt
