@@ -1,6 +1,6 @@
 Metadata-Version: 1.2
 Name: smashpy
-Version: 0.0.3
+Version: 0.0.4
 Summary: SMaSH: A scalable, general marker gene identification framework for single-cell RNA sequencing and Spatial Transcriptomics
 Home-page: https://gitlab.com/cvejic-group/smash
 Author: Simone Riva
@@ -19,10 +19,11 @@ Description: The ```SMaSH``` (Scalable Marker gene Signal Hunter) framework is a
         
         
         We're always happy to hear of any suggestions, issues, bug reports, and possible ideas for collaboration.
-        <ul>
-        <li>Mike Nelson <nelson@ebi.ac.uk> (University of Cambridge, and EMBL-EBI)</li>
-        <li>Simone Riva <sr31@sanger.ac.uk> (University of Cambridge, and Wellcome Sanger Institute) </li>
-        </ul>
+        
+        - Mike Nelson <nelson@ebi.ac.uk> (University of Cambridge, and EMBL-EBI)
+        
+        - Simone Riva <sr31@sanger.ac.uk> (University of Cambridge, and Wellcome Sanger Institute)
+        
 Platform: UNKNOWN
 Classifier: Programming Language :: Python :: 3.5
 Requires-Python: >=3.5
