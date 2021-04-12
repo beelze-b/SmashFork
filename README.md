@@ -12,7 +12,7 @@ on the ```SMaSH``` implementation (see Figure below) please consult our pre-prin
 object of RNA-sequencing counts and a vector of user-defined annotations for each cell according to the marker gene extraction problem. 
 
 <!-- <img src="images/SMaSH_flowchart.png"> -->
-<img src="images/SMaSH_framework.pdf">
+<img src="images/SMaSH_framework.png">
 
 ## Installation
 ```SMaSH``` is accessible on ```pypi``` (https://pypi.org/project/smashpy) and can be installed with ```pip```:
