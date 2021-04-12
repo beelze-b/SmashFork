@@ -1,12 +1,14 @@
 # SMaSH framework
 
+All functions will be updated soon!
+
 ## Overview 
 The ```SMaSH``` (Scalable Marker gene Signal Hunter) framework is a general, scalable codebase for calculating marker genes from single-cell RNA-sequencing
 data for a variety of different cell annotations as provided by the user, using supervised machine learning approaches.  These annotations can be truly general:
 they can be broad cell types/clusters, detailed sub-types of different broad clusters, cell organ of origin, whether the cell inhabits tumour tissue, surrounding
 microenvironment, or healthy tissue, and more besides. ```SMaSH``` implements marker gene extraction using four different models (Random Forest, Balanced Random Forest, XGBoost,
 and a deep neural network) and two different information gain metrics (Gini impurity for the ensemble learners, and Shapley value for the neural network). For some details
-on the ```SMaSH``` implementation (see Figure below) please consult our pre-print: [COMING SOON]. ```SMaSH``` is integrated with the ```ScanPy``` framework, working directly from the ```AnnData```
+on the ```SMaSH``` implementation (see Figure below) please consult our pre-print: https://www.biorxiv.org/content/10.1101/2021.04.08.438978v1. ```SMaSH``` is integrated with the ```ScanPy``` framework, working directly from the ```AnnData```
 object of RNA-sequencing counts and a vector of user-defined annotations for each cell according to the marker gene extraction problem. 
 
 <img src="images/SMaSH_flowchart.png">
