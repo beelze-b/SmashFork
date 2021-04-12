@@ -11,7 +11,8 @@ and a deep neural network) and two different information gain metrics (Gini impu
 on the ```SMaSH``` implementation (see Figure below) please consult our pre-print: https://www.biorxiv.org/content/10.1101/2021.04.08.438978v1. ```SMaSH``` is integrated with the ```ScanPy``` framework, working directly from the ```AnnData```
 object of RNA-sequencing counts and a vector of user-defined annotations for each cell according to the marker gene extraction problem. 
 
-<img src="images/SMaSH_flowchart.png">
+<!-- <img src="images/SMaSH_flowchart.png"> -->
+<img src="images/SMaSH_framework.pdf">
 
 ## Installation
 ```SMaSH``` is accessible on ```pypi``` (https://pypi.org/project/smashpy) and can be installed with ```pip```:
