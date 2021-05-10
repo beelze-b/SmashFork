@@ -12,7 +12,10 @@ data/house_keeping_genes_human_foetal_liver.txt
 dist/smashpy-0.0.1-py3-none-any.whl
 dist/smashpy-0.0.2-py3-none-any.whl
 dist/smashpy-0.0.3-py3-none-any.whl
+dist/smashpy-0.0.4-py3-none-any.whl
 images/SMaSH_flowchart.png
+images/SMaSH_framework.pdf
+images/SMaSH_framework.png
 notebooks/cite-seq/BRF.ipynb
 notebooks/cite-seq/DNN.ipynb
 notebooks/cite-seq/RF.ipynb

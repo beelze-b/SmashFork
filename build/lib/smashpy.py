@@ -71,7 +71,7 @@ class smashpy:
 		sess = tf.compat.v1.Session(graph=tf.compat.v1.get_default_graph(), config=session_conf)
 		tf.compat.v1.keras.backend.set_session(sess)
             
-		py.offline.init_notebook_mode(connected=True)
+# 		py.offline.init_notebook_mode(connected=True)
 		sc.settings.verbosity = 0
         
 

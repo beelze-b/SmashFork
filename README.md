@@ -94,6 +94,5 @@ selectedGenes, selectedGenes_dict = sm.run_shap(obj, group_by="annotation", mode
 ## Contact
 We're always happy to hear of any suggestions, issues, bug reports, and possible ideas for collaboration.
 
-Mike Nelson <nelson@ebi.ac.uk> (University of Cambridge, and EMBL-EBI)\
 Simone Riva <sgr34@cam.ac.uk>, <sr31@sanger.ac.uk> (University of Cambridge, and Wellcome Sanger Institute) 
-
+Mike Nelson <nelson@ebi.ac.uk> (University of Cambridge, and EMBL-EBI)
