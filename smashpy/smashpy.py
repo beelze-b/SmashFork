@@ -17,7 +17,7 @@ from matplotlib import colors
 from xgboost import XGBClassifier
 from keras.models import Sequential
 from sklearn.decomposition import PCA
-from keras.utils import to_categorical
+from tensorflow.keras.utils import to_categorical
 from sklearn.metrics import accuracy_score
 from sklearn.metrics import confusion_matrix
 from sklearn.preprocessing import LabelEncoder
