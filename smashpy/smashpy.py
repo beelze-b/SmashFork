@@ -34,7 +34,7 @@ from keras.callbacks import EarlyStopping, ModelCheckpoint
 from imblearn.ensemble import BalancedRandomForestClassifier
 from keras.layers.core import Dense, Dropout, Activation, Flatten
 
-from _version import __version__
+from ._version import __version__
     
 SEED = 42
 
