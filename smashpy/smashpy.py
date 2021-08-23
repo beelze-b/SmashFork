@@ -29,7 +29,7 @@ from keras import losses, optimizers, regularizers
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
-from keras.layers.normalization import BatchNormalization
+from keras.layers import BatchNormalization
 from keras.callbacks import EarlyStopping, ModelCheckpoint
 from imblearn.ensemble import BalancedRandomForestClassifier
 from keras.layers.core import Dense, Dropout, Activation, Flatten
