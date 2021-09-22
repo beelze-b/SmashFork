@@ -25,8 +25,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.datasets import make_classification
 from sklearn.metrics import classification_report
 from sklearn.neighbors import KNeighborsClassifier
-from keras import losses, regularizers
-import tensorflow.keras.optimizers as optimizers
+from keras import losses, optimizers, regularizers
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
@@ -645,7 +644,7 @@ class smashpy:
 
 		self.__network_history_plot(network_history)
 
-		pred = np.argmax(model.predict(X_test), axis = -1)
+		pred = model.predict_classes(X_test)
 
 		self.__confusionM(pred, yy_test, labels=names, title="DNN", save=save)
 		print(classification_report(yy_test, pred, target_names=names))
