@@ -25,7 +25,8 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.datasets import make_classification
 from sklearn.metrics import classification_report
 from sklearn.neighbors import KNeighborsClassifier
-from keras import losses, optimizers, regularizers
+from keras import losses, regularizers
+import tensorflow.keras.optimizers as optimizers
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
