@@ -645,7 +645,7 @@ class smashpy:
 
 		self.__network_history_plot(network_history)
 
-		pred = model.predict_classes(X_test)
+		pred = np.argmax(model.predict(X_test), axis = -1)
 
 		self.__confusionM(pred, yy_test, labels=names, title="DNN", save=save)
 		print(classification_report(yy_test, pred, target_names=names))
